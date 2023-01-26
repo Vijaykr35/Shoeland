@@ -134,6 +134,7 @@ nav{
     color:black ;
 
 }
+
 .slideritem:nth-child(1) .slidebg{
     background-color: #369e62;
 }
@@ -456,12 +457,11 @@ footer{
     font-size: 14px;
 }
 
-@media screen and (max-width:1080px){
+@media screen and (max-width:980px){
 
     
-      nav{
+      #nav{
         padding: 20px;
-       
       }
     
       .search{
@@ -495,11 +495,11 @@ footer{
         display: none;
       }
     
-      .sliderprice{
+      .siderprice{
+        background-color: lightgray;
         top: unset;
         bottom: -50;
         left: 0;
-        background-color: lightgrey;
       }
     
       .buybutton{
